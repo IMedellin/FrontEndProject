@@ -1,0 +1,51 @@
+body{
+  background-color: rgb(226, 133, 18);
+  background-image: url(https://library.sportingnews.com/2021-08/larry-obrien-championship-trophy_1ltn7uv1okfkvzsgq6wrcaowk.png);
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+input[type=text], select {
+width: 25%;
+padding: 12px 10px;
+margin-right: 0;
+display: list-item;
+border: 4px double #39A9DB;
+border-radius: 8px;
+box-sizing: border-box;
+
+}
+
+.cardContainer{
+  width: 400px;
+  height: 600px;
+  background-color: blue;
+  opacity: 0.8;
+  float: right;
+  margin: auto;
+  border-radius: 20px;
+  padding: 0px;
+  float: left;
+  }
+
+.cardframe{
+  display: flex;
+}
+
+  .statsbox{
+    width: 1000px;
+    height: 800px;
+    background-color: grey;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: row;
+  }
+
+#submitstat{
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+  
