@@ -16,12 +16,16 @@ box-sizing: border-box;
 }
 
 .cardContainer{
-  width: 400px;
-  height: 600px;
-  background-color: blue;
-  opacity: 0.8;
+  border: 1px solid black;
+  border-radius: 25px;
+  box-sizing: border-box;
+  box-shadow: -8px 9px 16px -3px gray;
+  width: 500px;
+  height: 700px;
+  background-color: #171314;
   float: right;
-  margin: auto;
+  margin: 0 auto;
+  margin-top: 56px;
   border-radius: 20px;
   padding: 0px;
   float: left;
@@ -42,10 +46,15 @@ box-sizing: border-box;
     flex-direction: row;
   }
 
-#submitstat{
+.submitstat{
   float: right;
   position: absolute;
   right: 0;
   bottom: 0;
 }
-  
+
+.idbox{
+  position: absolute;
+  left:0;
+  bottom:0;
+}
